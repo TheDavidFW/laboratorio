@@ -1,32 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear CV</title>
 </head>
+
 <body>
     <header>
         <center>
             <h1>Curriculum Vitae</h1>
+            <nav>
+            <a href="David.html" target="_self">David Feng</a>
+            <a href="Jefte.html" target="_self">Jefte Fuentes</a>
+            <a href="Daniel.html" target="_self">Daniel Almanza</a>
+            </nav>
         </center>
     </header>
     <section>
-        <center>
-            <form>
+        <form action="David.html">
+            <center>
                 <input type="text" placeholder="Nombre Completo">
+                <br>
                 <input type="text" placeholder="Ocupacion">
-                <input type="text" placeholder="Resumen">
-                <p> 
-                    Foto
+                <br>
+                <textarea name="" id="" cols="25" rows="7" placeholder="Resumen"></textarea>
+                <p>
+                    Foto<br>
                     <input type="file">
                 </p>
-                <hr>
-                <h2>Educacion</h2>
-                <input type="date">
-                <input type="text" placeholder="Colegio o Universidad">
-            </form>
-        </center>
+            </center>
+            <hr>
+            <h2>Educacion</h2>
+            <input type="date">
+            <br>
+            <input type="text" placeholder="Colegio o Universidad">
+            <hr>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>
+                    <input type="text" placeholder="hab1">
+                </li>
+                <li>
+                    <input type="text" placeholder="hab2">
+                </li>
+                <li>
+                    <input type="text" placeholder="hab3">
+                </li>
+                <li>
+                    <input type="text" placeholder="hab4">
+                </li>
+                <li>
+                    <input type="text" placeholder="hab5">
+                </li>
+            </ul>
+            <hr>
+            <h2>Experiencias</h2>
+            <input type="text" placeholder="Compañia">
+            <ul>
+                <li>
+                    <input type="text" placeholder="participacion1">
+                </li>
+                <li>
+                    <input type="text" placeholder="participacion2">
+                </li>
+            </ul>
+            <hr>
+            <h2>Idiomas</h2>
+            <ul>
+                <li>
+                    <input type="text" placeholder="idioma1">
+                </li>
+                <li>
+                    <input type="text" placeholder="idioma2">
+                </li>
+                <li>
+                    <input type="text" placeholder="idioma3">
+                </li>
+            </ul>
+            <hr>
+            <h2>Contacto</h2>
+                            <img src="img/Contact.png" alt="" width="18" height="18"><input type="text" placeholder="Telefono">
+                            <img src="img/email.png" alt="" width="18" height="18"> <input type="email" placeholder="Email">
+                            <img src="img/linkedin.png" alt="" width="18" height="18"><input type="text" placeholder="linkedin">
+                            <img src="img/location.png" alt="" width="18" height="18"><input type="text" placeholder="Direccion">
+            <br><br>
+            <input type="submit">
+        </form>
     </section>
 </body>
+
 </html>
