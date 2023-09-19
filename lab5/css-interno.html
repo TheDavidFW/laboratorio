@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV CSS Interno</title>
+    <style>
+        body{
+            background-color: azure;
+        }
+        header{
+            text-align: center;
+            background: linear-gradient(to right, #28476A, #40B5FD);
+        }
+        h1{
+            color: white;
+        }
+        .general{
+            display: flex; 
+            background: linear-gradient(to right, #28476A, #40B5FD);
+        }
+        .h1-nombre{
+            font-size: 40px; 
+            line-height: 0%;
+        }
+        .foto{
+            width: 250px;
+            height: 250px;
+            border-radius: 20%; 
+            border: 5px solid #FFFFFF; 
+            margin-right: 5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .subtitulo{
+            color: white;
+            font-style: italic;
+        }
+        .parrafo{
+            color: white; 
+            text-align: justify; 
+            padding-right: 20px;
+        }
+        .section-izquierdo{
+            position: absolute; 
+            width: 300px;
+        }
+        .section-derecho{
+            margin-left: 500px;
+            margin-right: 40px;
+        }
+        .h2-section{
+            color: #28476A;
+            font-size: 30px;
+            line-height: 0%;
+        }
+        .h2-exp{
+            color: #28476A;
+            font-size: 30px;
+        }
+        ul{
+            color: #28476A;
+        }
+        p{
+            color: #28476A;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>CV con CSS Interno</h1>
+        <nav>
+            <a href="css-en-linea.html" target="_self" >CSS En Linea</a>
+            <a href="css-externo.html" target="_self" >CSS Externo</a>
+        </nav>
+    </header>
+    <section class="general">
+        <section>
+            <h1 class="h1-nombre">David</h1>
+            <h1 class="h1-nombre">Feng Wu</h1>
+            <h2 class="subtitulo">Estudiante</h2>
+            <p class="parrafo">Estudiante de Desarrollo de Software.
+                Tengo 21 años, me considero una persona responsable y honesta.
+                Tengo grandes expectativas de lo que podría aprender en los siguientes años de mi carrera.
+                Quiero ser el mejor y no quedarme atrás en lo que hago.
+            </p>
+        </section>
+        <img src="img/foto.png" alt="" class="foto">
+    </section>
+
+    <section class="section-izquierdo">
+        <h2 class="h2-section">Habilidades</h2>
+        <ul type="point">
+            <li>Microsoft Office</li>
+            <li>MS SQL Server</li>
+            <li>Visual Studio Code</li>
+            <li>IntelliJ IDEA</li>
+            <li>Solución de problemas informáticos</li>
+        </ul>
+    </section>
+    <section class="section-derecho">
+        <h2 class="h2-section">Educación</h2>
+        <p>2018-2021 <br>
+            Bachillerato en Ciencias y Letras en el Centro Cultural Chino Panameño Instituto Sun-Yat Sen, Ciudad de
+            Panamá, Panamá<br><br>
+            2022-Actualidad <br>
+            Licenciatura en Desarrollo de Software en la Universidad Tecnológica de Panamá, Ciudad de Panamá, Panamá
+        </p>
+    </section>
+
+    <section class="section-izquierdo">
+        <h2 class="h2-section">Idiomas</h2>
+        <ul>
+            <li>Español (nativo)</li>
+            <li>Inglés (Avanzado)</li>
+            <li>Chino Mandarín</li>
+        </ul>
+    </section>
+    <section class="section-derecho">
+        <h2 class="h2-exp">Experiencias Voluntarios</h2>
+        <p> @adidaspa
+        <ul>
+            <li>Participación en Run For The Oceans</li>
+            <li>Participación en la recolección de plásticos y basura</li>
+        </ul>
+        </p>
+    </section>
+
+    <footer>
+        <h2 class="h2-section">Contacto</h2>
+        <p>
+            <img src="img/Contact.png" alt="" width="18" height="18">+507 6240-3084 &nbsp
+            <img src="img/email.png" alt="" width="18" height="18"> david.feng@utp.ac.pa &nbsp
+            <img src="img/linkedin.png" alt="" width="18" height="18">/david-feng-wu &nbsp
+            <img src="img/location.png" alt="" width="18" height="18"> El Dorado, Panama &nbsp
+        </p>
+    </footer>
+</body>
+
+</html>
