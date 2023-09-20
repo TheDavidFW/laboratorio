@@ -6,67 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV CSS Interno</title>
     <style>
-        body{
+        body {
             background-color: azure;
         }
-        header{
-            text-align: center;
+        header {
             background: linear-gradient(to right, #28476A, #40B5FD);
+            text-align: center;
         }
-        nav{
+        .titulo{
+            font-family: fantasy;
+            line-height: 35px;
+        }
+        nav {
             font-weight: bold;
             font-size: 17px;
+            line-height: 25px;
         }
-        h1{
+        .general {
+            background: linear-gradient(to right, #28476A, #40B5FD);
+            text-align: center;
+        }
+        h1 {
             color: white;
         }
-        .general{
-            display: flex; 
-            background: linear-gradient(to right, #28476A, #40B5FD);
+        .h1-nombre {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 40px;
+            line-height: 30px;
         }
-        .h1-nombre{
-            font-size: 40px; 
-            line-height: 0%;
-        }
-        .foto{
+        .foto {
             width: 250px;
             height: 250px;
-            border-radius: 20%; 
-            border: 5px solid #FFFFFF; 
-            margin-right: 5px;
-            margin-top: 5px;
-            margin-bottom: 5px;
+            border-radius: 20%;
+            border: 5px solid #FFFFFF;
         }
-        .subtitulo{
+        h2{
+            font-family: 'Courier New', Courier, monospace;
             color: white;
+            line-height: 0%;
+        }
+        .subtitulo {
             font-style: italic;
         }
-        .parrafo{
-            color: white; 
-            text-align: justify; 
-            padding-right: 20px;
-        }
-        .section-izquierdo{
-            position: absolute; 
-            width: 300px;
-        }
-        .section-derecho{
-            margin-left: 500px;
-            margin-right: 40px;
+        .parrafo {
+            color: white;
+            text-align: justify;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
         .h2-section{
             color: #28476A;
             font-size: 30px;
-            line-height: 0%;
         }
-        .h2-exp{
-            color: #28476A;
-            font-size: 30px;
-        }
-        ul{
+        ul {
             color: #28476A;
         }
-        p{
+        p {
             color: #28476A;
         }
     </style>
@@ -74,26 +68,24 @@
 
 <body>
     <header>
-        <h1>CV con CSS Interno</h1>
+        <h1 class="titulo">CV con CSS Interno</h1>
         <nav>
-            <a href="index.html" target="_self" >Regresar al Menu</a>
+            <a href="index.html" target="_self">Regresar al Menu</a>
         </nav>
     </header>
+    <hr>
     <section class="general">
-        <section>
-            <h1 class="h1-nombre">David</h1>
-            <h1 class="h1-nombre">Feng Wu</h1>
-            <h2 class="subtitulo">Estudiante</h2>
-            <p class="parrafo">Estudiante de Desarrollo de Software.
-                Tengo 21 años, me considero una persona responsable y honesta.
-                Tengo grandes expectativas de lo que podría aprender en los siguientes años de mi carrera.
-                Quiero ser el mejor y no quedarme atrás en lo que hago.
-            </p>
-        </section>
+        <h1 class="h1-nombre">David Feng Wu</h1>
+        <h2 class="subtitulo">Estudiante</h2>
+        <p class="parrafo">Estudiante de Desarrollo de Software.
+            Tengo 21 años, me considero una persona responsable y honesta.
+            Tengo grandes expectativas de lo que podría aprender en los siguientes años de mi carrera.
+            Quiero ser el mejor y no quedarme atrás en lo que hago.
+        </p>
         <img src="img/foto.png" alt="" class="foto">
     </section>
-
-    <section class="section-izquierdo">
+    <hr>
+    <section>
         <h2 class="h2-section">Habilidades</h2>
         <ul type="point">
             <li>Microsoft Office</li>
@@ -103,7 +95,8 @@
             <li>Solución de problemas informáticos</li>
         </ul>
     </section>
-    <section class="section-derecho">
+    <hr>
+    <section>
         <h2 class="h2-section">Educación</h2>
         <p>2018-2021 <br>
             Bachillerato en Ciencias y Letras en el Centro Cultural Chino Panameño Instituto Sun-Yat Sen, Ciudad de
@@ -112,25 +105,26 @@
             Licenciatura en Desarrollo de Software en la Universidad Tecnológica de Panamá, Ciudad de Panamá, Panamá
         </p>
     </section>
-
-    <section class="section-izquierdo">
+    <hr>
+    <section>
         <h2 class="h2-section">Idiomas</h2>
-        <ul>
+        <ul type="point">
             <li>Español (nativo)</li>
             <li>Inglés (Avanzado)</li>
             <li>Chino Mandarín</li>
         </ul>
     </section>
-    <section class="section-derecho">
-        <h2 class="h2-exp">Experiencias Voluntarios</h2>
+    <hr>
+    <section>
+        <h2 class="h2-section">Experiencias Voluntarios</h2>
         <p> @adidaspa
-        <ul>
+        <ul type="point">
             <li>Participación en Run For The Oceans</li>
             <li>Participación en la recolección de plásticos y basura</li>
         </ul>
         </p>
     </section>
-
+    <hr>
     <footer>
         <h2 class="h2-section">Contacto</h2>
         <p>
