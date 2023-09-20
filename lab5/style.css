@@ -5,6 +5,10 @@ header{
     text-align: center;
     background: linear-gradient(to right, #28476A, #40B5FD);
 }
+nav{
+    font-weight: bold;
+    font-size: 17px;
+}
 h1{
     color: white;
 }
