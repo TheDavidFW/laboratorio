@@ -31,8 +31,6 @@ h1 {
 .foto {
     width: 250px;
     height: 250px;
-    border-radius: 20%;
-    border: 5px solid #FFFFFF;
 }
 h2{
     font-family: 'Courier New', Courier, monospace;
