@@ -7,16 +7,18 @@ header {
 }
 .titulo{
     font-family: fantasy;
-    line-height: 35px;
+    font-size: 45px;
 }
 nav {
     font-weight: bold;
     font-size: 17px;
-    line-height: 25px;
+    line-height: 0px;
 }
-.general {
-    background: linear-gradient(to right, #28476A, #40B5FD);
-    text-align: center;
+a{
+    color: #fffcf2;
+    text-decoration: none;
+    background-color: rgb(134, 134, 134);
+    font-size: 1.5em;
 }
 h1 {
     color: white;

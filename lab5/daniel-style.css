@@ -1,0 +1,39 @@
+body {
+    background-color: #403d39;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: Montserrat;
+    color: #ccc5b9;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: Montserrat;
+    color: #ccc5b9;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.nombre {
+    font-weight: bold;
+}
+
+a {
+    color: #fffcf2;
+    text-decoration: none;
+    background-color: rgb(134, 134, 134);
+    font-size: 1.5em;
+}
+
+li {
+    color: #fffcf2;
+    font-size: 1em;
+}

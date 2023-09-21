@@ -9,57 +9,72 @@
         body {
             background-color: azure;
         }
+
         header {
             background: linear-gradient(to right, #28476A, #40B5FD);
             text-align: center;
         }
-        .titulo{
+
+        .titulo {
             font-family: fantasy;
-            line-height: 35px;
+            font-size: 45px;
         }
+
         nav {
             font-weight: bold;
             font-size: 17px;
-            line-height: 25px;
+            line-height: 0px;
         }
-        .general {
-            background: linear-gradient(to right, #28476A, #40B5FD);
-            text-align: center;
+
+        a {
+            color: #fffcf2;
+            text-decoration: none;
+            background-color: rgb(134, 134, 134);
+            font-size: 1.5em;
         }
+
         h1 {
             color: white;
         }
+
         .h1-nombre {
             font-family: 'Courier New', Courier, monospace;
             font-size: 40px;
             line-height: 30px;
         }
+
         .foto {
             width: 250px;
             height: 250px;
             border-radius: 20%;
             border: 5px solid #FFFFFF;
         }
-        h2{
+
+        h2 {
             font-family: 'Courier New', Courier, monospace;
             color: white;
             line-height: 0%;
         }
+
         .subtitulo {
             font-style: italic;
         }
+
         .parrafo {
             color: white;
             text-align: justify;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
-        .h2-section{
+
+        .h2-section {
             color: #28476A;
             font-size: 30px;
         }
+
         ul {
             color: #28476A;
         }
+
         p {
             color: #28476A;
         }
@@ -68,22 +83,21 @@
 
 <body>
     <header>
-        <h1 class="titulo">CV con CSS Interno</h1>
+        <h1 class="titulo">Curriculum Vitae</h1>
         <nav>
-            <a href="index.html" target="_self">Regresar al Menu</a>
+            <a href="index.html" target="_self">--Regresar al Menu--</a>
         </nav>
+        <section>
+            <h1 class="h1-nombre">David Feng Wu</h1>
+            <h2 class="subtitulo">Estudiante</h2>
+            <p class="parrafo">Estudiante de Desarrollo de Software.
+                Tengo 21 años, me considero una persona responsable y honesta.
+                Tengo grandes expectativas de lo que podría aprender en los siguientes años de mi carrera.
+                Quiero ser el mejor y no quedarme atrás en lo que hago.
+            </p>
+            <img src="img/foto.png" alt="" class="foto">
+        </section>
     </header>
-    <hr>
-    <section class="general">
-        <h1 class="h1-nombre">David Feng Wu</h1>
-        <h2 class="subtitulo">Estudiante</h2>
-        <p class="parrafo">Estudiante de Desarrollo de Software.
-            Tengo 21 años, me considero una persona responsable y honesta.
-            Tengo grandes expectativas de lo que podría aprender en los siguientes años de mi carrera.
-            Quiero ser el mejor y no quedarme atrás en lo que hago.
-        </p>
-        <img src="img/foto.png" alt="" class="foto">
-    </section>
     <hr>
     <section>
         <h2 class="h2-section">Habilidades</h2>
