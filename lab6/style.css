@@ -74,14 +74,16 @@ body{
 
 .imagen{
     background-image: url(img/wallpaper.jpg);
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(60, 60, 60);
     background-blend-mode: soft-light;
     background-size: cover;
     width: 100%;
     height: 100vh;
 }
 .imagen h1{
-    padding-top: 50vh;
+    display: flex;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
     text-align: center;
     font-size: 50px;
     color: white;
