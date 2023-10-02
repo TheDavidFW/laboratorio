@@ -1,0 +1,107 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #A8A9AD;
+}
+.encabezado{
+    background-color: #4682BF;
+    text-align: center;
+}
+
+.navbar ul{
+    color: #A8A9AD;
+    list-style: none;
+    background-color: #B11226;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar span{
+    background-color: #0047AB;
+    border-radius: 5px;
+    margin: 25px;
+    padding: 7px;
+}
+
+.navbar li{
+    display: inline-block;
+}
+.navbar li:hover{
+    color: white;
+    border-bottom: 1px solid #A8A9AD;
+    cursor: pointer;    
+    line-height: 0;
+}
+
+.navbar a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #A8A9AD;
+}
+.contenedor div{
+    margin: 38px;
+    border: 1px solid black;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contenedor p{
+    text-align: left;
+}
+
+.contenedor img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.caja1,.caja2,.caja3{
+    background-color: #D3D3D3;
+}
+
+.imagen{
+    background-image: url(img/wallpaper.jpg);
+    background-color: rgb(70, 70, 70);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.imagen h1{
+    padding-top: 50vh;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-left: 35vh;
+    padding-right: 35vh;
+}
+
+.pie{
+    background-color: #D3D3D3;
+    display: flex;
+}
+
+.pie img{
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+}
+
+.fisc{
+position: absolute;
+right: 0;
+}
+
