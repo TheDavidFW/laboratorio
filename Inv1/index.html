@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <!--Acceso Local-->
+    <link rel="stylesheet" href="bulma/css/bulma.min.css">
+    <!--Acceso con Internet-->
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">-->
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+
+<body>
+    <section class="hero is-fullheight"><!--Contenedor principal y componente para pantalla completa-->
+        <div class="hero-body"><!--Contenedor hijo para agregar contenidos-->
+            <div class="container has-text-centered"><!--Contenedor con texto centrado-->
+                <div class="column is-4 is-offset-4"><!--Posicion-->
+                    <h3 class="title has-text-black">Iniciar Sesion</h3><!--Titulo con texto negro-->
+                    <hr>
+                    <p class="subtitle has-text-black">Inicie sesion para continuar</p> <!--subtitulo con texto negro-->
+                    <div class="box"><!--caja-->
+                        <figure class="avatar"><!--avatar-->
+                            <img src="img/avatar.png">
+                        </figure>
+                        <form>
+                            <div class="field"><!--Campo del form-->
+                                <label class="label has-text-left">Correo Electronico</label>
+                                <div class="control">
+                                    <input class="input is-large" type="email" placeholder="Correo">
+                                </div>
+                            </div>
+
+                            <div class="field"><!--Campo del form-->
+                                <label class="label has-text-left">Contraseña</label>
+                                <div class="control">
+                                    <input class="input is-large" type="password" placeholder="Contraseña">
+                                </div>
+                            </div>
+                            <div class="field"><!--Campo del form-->
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    Recordarme
+                                </label>
+                            </div>
+                            <button class="button is-block is-info is-large is-fullwidth">Iniciar Sesion</button><!--Display: block, fondo azul, button size-->
+                        </form>
+                    </div>
+                    <p class="has-text-grey">
+                        <a href="">Registrarse</a>
+                        <a href="">Contraseña Olvidada?</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

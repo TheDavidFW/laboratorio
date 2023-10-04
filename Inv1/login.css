@@ -1,0 +1,35 @@
+body {
+  font-family: 'Questrial', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.hero {
+  background-color: #F2F6FA;
+}
+.box {
+  margin-top: 4rem;
+}
+.avatar {
+  margin-top: -70px;
+  padding-bottom: 20px;
+}
+.avatar img {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid grey;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+p {
+  font-weight: 700;
+}
+
+hr{
+  border-bottom: 1px solid black;
+}
+
+.field{
+  padding-bottom: 10px;
+}
