@@ -74,13 +74,16 @@ function validarTexto() {
 }
 
 let i=0;
-fetch('https://api-blue-archive.vercel.app/api/characters').
-        then(resultado => {
-            resultado.json().then(json => {
-                personajes = json;
-                console.log(personajes);
-            })
-        });
+function obtenerDatos(){
+    fetch('https://api-blue-archive.vercel.app/api/characters').
+    then(resultado => {
+        resultado.json().then(json => {
+            personajes = json;
+            console.log(personajes);
+        })
+    });
+}
+
 
 function mapearPersonajes(){
     let tabla = document.getElementById('tabla');
