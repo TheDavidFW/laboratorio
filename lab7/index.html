@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab7</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Descripción del ejemplo</td>
+            <th>ejemplo</td>
+            <th>Botón para activar el ejemplo</td>
+        </tr>
+        <tr>
+            <td>Cambiar el color de párrafo </td>
+            <td>
+                <p class="parrafo1">Hola este es un parrafo que se puede cambiar de color</p>
+            </td>
+            <td>
+                <button onclick="cambiarColor()">Cambiar Color</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Añadir texto a un párrafo</td>
+            <td><p id="texto"></p></td>
+            <td>
+                <input type="text" id="entrada" placeholder="texto">
+                <button onclick="agregarTexto()">Agregar Texto</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Concatenar el valor de dos textos</td>
+            <td><p id="concatenado"></p></td>
+            <td>
+                <input type="text" id="entrada1" placeholder="texto 1">
+                <input type="text" id="entrada2" placeholder="texto 2">
+                <button onclick="concatenarTexto()">Concatenar</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Eliminar valores de una lista despegable</td>
+            <td>
+                <select id="lista">
+                    <option value="">Opcion1</option>
+                    <option value="">Opcion2</option>
+                    <option value="">Opcion3</option>
+                    <option value="">Opcion4</option>
+                    <option value="">Opcion5</option>
+                    <option value="">Opcion6</option>
+                </select>
+            </td>
+            <td>
+                <button onclick="eliminarListaD()">Eliminar</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Un botón que me lleve a un video de youtube (con js) (uso de href en js)</td>
+            <td>https://www.youtube.com/watch?v=dQw4w9WgXcQ</td>
+            <td>
+                <button onclick="accederPagina()">Acceder a la Pagina</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Mandar un mensaje al usuario con el nombre colocado en el punto 1.3 </td>
+            <td>Alerta</td>
+            <td>
+                <button onclick="activarAlerta()">Activar Alerta</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Manda el nombre, a la consola de js del navegador (uso de console)</td>
+            <td><p id="revisarconsola"></p></td>
+            <td>
+                <button onclick="mostrarConsola()">Ver Nombre</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Un check, e imprimir su estado (uso de atributos del checkbox)</td>
+            <td>
+                <input type="checkbox" id="checkbox">Checkbox
+                <p id="estadocheck"></p>
+            </td>
+            <td>
+                <button onclick="mostartEstadoCheck()">Comprobar Estado</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Un radio e imprimir su estado (uso de atributos del radiobutton)</td>
+            <td>
+                <input type="radio" name="radioboton" id="radioboton1" value="A">A
+                <input type="radio" name="radioboton" id="radioboton2" value="B">B
+                <p id="estadoradio"></p>
+            </td>
+            <td>
+                <button onclick="mostrarEstadoRadio()">Comprobar Estado</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Una validación de un campo, si este es número enviar un mensaje que solo se permiten teclas.</td>
+            <td>
+                <input type="text" id="campo" placeholder="Ingrese solo teclas">
+            </td>
+            <td>
+                <button onclick="validarTexto()">Validar Texto</button>
+            </td>
+        </tr>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
