@@ -84,7 +84,6 @@ function obtenerDatos(){
     });
 }
 
-
 function mapearPersonajes(){
     let tabla = document.getElementById('tabla');
     if (i<personajes.data.length){
