@@ -1,3 +1,17 @@
+const url = 'https://api-blue-archive.vercel.app/api/characters'
+
+fetch(url)
+.then(response => response.json())
+.then(data => {
+    var nombre = document.getElementById('nombre');
+    var colegio = document.getElementById('colegio');
+    var imagen = document.getElementById('imagen');
+    nombre.innerHTML = `${data.data[3].name}`;
+    colegio.innerHTML = `${data.data[3].school}`;
+    imagen.innerHTML = `<img src=${data.data[3].imageSchool}></img>`;
+})
+.catch(err=>console.log(err))
+
 function cambiarColor() {
     var x = document.createElement("STYLE");
     var t = document.createTextNode(".parrafo1 {color: green}");

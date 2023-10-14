@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+header{
+    text-align: center;
+}
+
+.navbar ul{
+    color: white;
+    list-style: none;
+    background-color: rgb(253, 215, 172);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar span{
+    background-color: #9f8170;
+    border-radius: 5px;
+    margin: 25px;
+    padding: 7px;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li:hover{
+    color: #D3D3D3;
+    border-bottom: 1px solid #D3D3D3;
+    cursor: pointer;    
+    line-height: 0;
+}
+
+.navbar a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+#nombre,
+#colegio{
+    text-align: center;
+    font-size: 25px;
+}
+
+.pie{
+    background-color: rgb(253, 215, 172);
+    display: flex;
+}
+
+.pie img{
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+}
+
+.fisc{
+position: absolute;
+right: 0;
+}
