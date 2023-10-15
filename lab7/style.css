@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -11,17 +11,17 @@ header{
 .navbar ul{
     color: white;
     list-style: none;
-    background-color: rgb(253, 215, 172);
+    background-color: rgb(182, 180, 176);
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
 .navbar span{
-    background-color: #9f8170;
+    background-color: #9f9087;
     border-radius: 5px;
-    margin: 25px;
-    padding: 7px;
+    margin: 2px;
+    padding: 13px 0px 8px 0px;
 }
 
 .navbar li{
@@ -56,7 +56,7 @@ table{
 }
 
 .pie{
-    background-color: rgb(253, 215, 172);
+    background-color: rgb(182, 180, 176);
     display: flex;
 }
 
