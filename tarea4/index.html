@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>tarea4</title>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Iniciar Sesión</h2>
+    <form id="login-form">
+      <div class="input-container">
+        <input type="text" id="username" placeholder="Usuario" required>
+      </div>
+      <div class="input-container">
+        <input type="password" id="password" placeholder="Contraseña" required>
+        <span class="toggle-password" id="togglePassword"></span> 
+      </div>
+      <button type="submit" id="submitButton">Ingresar</button>
+    </form>
+    <div class="loader" id="loader"></div>
+    <p class="message" id="message"></p>
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
