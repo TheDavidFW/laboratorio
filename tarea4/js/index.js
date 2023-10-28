@@ -5,15 +5,18 @@ document.addEventListener('DOMContentLoaded', function () {
   const loader = document.getElementById('loader');
   const message = document.getElementById('message');
   const usernameInput = document.getElementById('username');
+  const eyeIcon = document.getElementById('eyeIcon');
 
   // Mostrar/Ocultar contraseña
   togglePassword.addEventListener('click', function () {
     if (passwordInput.type === 'password') {
       passwordInput.type = 'text';
-      togglePassword.textContent = 'Ocultar';
+      eyeIcon.classList.remove('fa-eye');
+      eyeIcon.classList.add('fa-eye-slash');
     } else {
       passwordInput.type = 'password';
-      togglePassword.textContent = 'Mostrar';
+      eyeIcon.classList.remove('fa-eye');
+      eyeIcon.classList.add('fa-eye-slash');
     }
   });
 
